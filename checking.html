@@ -24,7 +24,7 @@
     //font-family:cursive;
     }
     #first_content{
-    background-image:url('../static/images/nurons.jpg');
+    background-image:url('static/images/nurons.jpg');
     background-attachment:fixed;
     background-size:cover;
     height:90vh;color:white;
@@ -83,7 +83,7 @@
         font-family: 'Permanent Marker', cursive;
         }
         #back_image{
-    background-image:url('../static/images/future.jpeg');
+    background-image:url('static/images/future.jpeg');
     background-attachment:fixed;
     background-size:cover;
     background-repeat:none;height:80vh;
@@ -170,7 +170,7 @@ font-family: 'Special Elite', cursive;">Build Something You Love</h3>
         <div class="col-lg-4 col-md-4 col-12">
                 <center>
                 <div class="card  first_image" >
-                    <img src="../static/images/computer_vision.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
+                    <img src="static/images/computer_vision.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
                     <div class="card-body">
                         <h5 class="card-title">Computer Vision</h5>
                         <div class="card-text">
@@ -188,7 +188,7 @@ font-family: 'Special Elite', cursive;">Build Something You Love</h3>
             <div class="col-lg-4 col-md-4 col-12">
                 <center>
                 <div class="card "  >
-                    <img src="../static/images/nlp.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
+                    <img src="static/images/nlp.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
                     <div class="card-body">
                         <h5 class="card-title">Natural Language Processing</h5>
                         <div class="card-text">
@@ -202,7 +202,7 @@ font-family: 'Special Elite', cursive;">Build Something You Love</h3>
             <div class="col-lg-4 col-md-4 col-12">
                 <center>
                 <div class="card last_image" >
-                    <img src="../static/images/robotics.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
+                    <img src="static/images/robotics.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
                     <div class="card-body">
                         <h5 class="card-title">AI in Robotics</h5>
                         <div class="card-text">
@@ -225,15 +225,15 @@ font-family: 'Special Elite', cursive;">Build Something You Love</h3>
     <script type="text/javascript">
     //console.log("shashi")
     images = [
-    'url("../static/images/nurons.jpg")',
-    'url("../static/images/book.jpeg")',
-    'url("../static/images/travelling.jpeg")'
+    'url("static/images/nurons.jpg")',
+    'url("static/images/book.jpeg")',
+    'url("static/images/travelling.jpeg")'
     ]
     var i = 0
     $('#first_content').css('background-image',images[i]).css('background-size','cover')
 
 
-    /*setInterval(function(){
+    setInterval(function(){
         //console.log("shashank")
         console.log(images.length)
         if(i<images.length){
@@ -245,7 +245,7 @@ font-family: 'Special Elite', cursive;">Build Something You Love</h3>
         $('#first_content').css('background-image',images[i]).css('background-size','cover')
 
     },5000)
-*/
+
 
 
 
