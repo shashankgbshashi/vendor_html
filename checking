@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="../static/images/logo.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Squada+One&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+    body{
+    //font-family:cursive;
+    }
+    #first_content{
+    background-image:url('../static/images/nurons.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    height:90vh;color:white;
+    opacity:0.9;background-repeat: None;
+    }
+    #first_content:hover{opacity:1}
+    hr{
+    background-color:white;color:white;opacity:0.3;
+    }
+
+    #future_here{
+    font-weight:normal;
+    }
+    #dive_in{width:150px;border-radius:25px;}
+    #home:hover{border-bottom:1px solid black;cursor:pointer}
+    #about:hover{border-bottom:1px solid black;cursor:pointer;}
+    #contact:hover{border-bottom:1px solid black;cursor:pointer;}
+
+    @media only screen and (max-width:340px){#loomedia{padding:50px;}}
+    @media only screen and (min-width: 350px) and (max-width:390px) {
+    #loomedia{
+        padding-top:120px;
+
+    }
+}
+     @media only screen and (min-width: 391px) and (max-width:500px;){
+    #loomedia{
+        padding-top:175px;
+
+    }
+}
+
+    @media only screen and (min-width: 500px) and (max-width:740px) {
+    #loomedia{
+        padding-top:20px;
+
+    }
+}
+        @media only screen and (min-width:980px){#loomedia{padding:150px;}}
+        #logo{
+        margin-left:250px;
+        }
+
+        nav{
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        #div_after_pic{
+        font-family:cursive;
+        }
+        .card{width:16rem;padding:10px;opacity:0.6}
+        .card:hover{opacity:1;
+        box-shadow : 10px 10px 8px rgba(0,0,0,0.5);
+        cursor:pointer;
+
+        font-size:100px;
+        font-family: 'Permanent Marker', cursive;
+        }
+        #back_image{
+    background-image:url('../static/images/future.jpeg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:none;height:80vh;
+    background-position:center
+    }
+
+
+
+</style>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha256-w49DIDk8itgSjjuoof5lTxYKwcjWJ7Z2sRW3nU1StNA=" crossorigin="anonymous"></script>
+
+
+
+
+    <div id="first_content" >
+
+
+    <div class="container" style="font-family:cursive;padding-top:10px;">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+                <center>
+    <div id="loomedia">
+        <h1 style="font-family:Audiowide;">The Future is Here</h1>
+        <h5 style="font-family:cursive">You may not realize it, but ARTFICIAL INTELLIGANCE is all around us</h5>
+        <a ><button type="button" class="btn btn-outline-danger" id="dive_in">Dive in</button></a>
+    </div></center>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+    <nav class="navbar navbar-expand-lg sticky-top" style="color:black;font-family:cursive;background-color:white;">
+            <div class="container">
+  <h3 class="navbar-brand" href="#"> <center><img src="../static/images/logo.png" alt="logo" title="logo" width="40"></center></h3>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <i class="fas fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <h5 class="nav-link" id="home">Home</h5>
+      </li>
+
+      <li class="nav-item active">
+        <h5 class="nav-link" id="contact">Contact</h5>
+      </li>
+
+      <li class="nav-item active">
+        <h5 class="nav-link" id="about">About</h5>
+      </li>
+
+    </ul>
+  </div></div>
+        </nav>
+<br>
+    <div class="container" id="div_after_pic">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <h1 style="font-family: 'Anton', sans-serif;">Lets Work Together</h1>
+                    <h3 style="font-family: 'Anton', sans-serif;
+font-family: 'Special Elite', cursive;">Build Something You Love</h3>
+                    <h5>AI caan enable humans to focus on parts of their<br> role that add the most value</h5>
+                    <label></label><h5 style="font-family: 'Pacifico', cursive;">Artificial intelligence is a tool, not a threat</h5>
+                </center>
+            </div>
+        </div>
+    </div><br>
+<div id="dont_know" style="background-color:rgba(220,220,220,0.5);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12"><br>
+                <center><h1 style="color:red;font-family:cursive">Build Powerful Tool</h1></center>
+            </div>
+        </div><br>
+        <div class="row">
+
+        <div class="col-lg-4 col-md-4 col-12">
+                <center>
+                <div class="card  first_image" >
+                    <img src="../static/images/computer_vision.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Vision</h5>
+                        <div class="card-text">
+                            <h6>Computer vision is a field of artificial intelligence that
+                                trains computers to interpret and understand
+                                the visual world.</h6>
+
+                        </div>
+                    </div>
+                </div></center>
+        </div>
+
+
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <center>
+                <div class="card "  >
+                    <img src="../static/images/nlp.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Natural Language Processing</h5>
+                        <div class="card-text">
+                            <h6>NLP is a field of study that focuses on the
+                                interactions between human language and computers</h6>
+
+                        </div>
+                    </div>
+                </div></center>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <center>
+                <div class="card last_image" >
+                    <img src="../static/images/robotics.jpg" alt="automation" title="automation" class="card-img-top" style="height:200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">AI in Robotics</h5>
+                        <div class="card-text">
+                            <h6>Robots learn to perform their tasks from
+                                humans through machine learning which
+                                again is a part of computer programming and AI</h6>
+
+                        </div>
+                    </div>
+                </div></center>
+            </div>
+        </div>
+    </div><br>
+
+</div>
+<div id="back_image"></div>
+<div class="facilities_available" style="height:100vh"></div>
+
+<script src="jquery.vide.js"></script>
+    <script type="text/javascript">
+    //console.log("shashi")
+    images = [
+    'url("../static/images/nurons.jpg")',
+    'url("../static/images/book.jpeg")',
+    'url("../static/images/travelling.jpeg")'
+    ]
+    var i = 0
+    $('#first_content').css('background-image',images[i]).css('background-size','cover')
+
+
+    /*setInterval(function(){
+        //console.log("shashank")
+        console.log(images.length)
+        if(i<images.length){
+        i++;
+        }
+        else{
+        i= 0
+        }
+        $('#first_content').css('background-image',images[i]).css('background-size','cover')
+
+    },5000)
+*/
+
+
+
+
+
+
+</script>
+</body>
+</html>
